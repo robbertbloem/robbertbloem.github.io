@@ -1,5 +1,3 @@
-![](/figures/000_1_most_basic_plot.png "Optional title")
-
 
 ```
 """
@@ -46,12 +44,6 @@ plt.show()
 # save the figure
 plt.savefig("../figures/000_0_most_basic_plot")
 
-```
-
-![](/figures/000_1_most_basic_plot.png)
-
-```
-
 # let's do that again, with x-axis
 plt.figure()
 plt.plot(x, y)
@@ -62,5 +54,5 @@ plt.show()
 plt.savefig("../figures/000_1_most_basic_plot")
 
 ```
-
+![](/figures/000_0_most_basic_plot.png)
 ![](/figures/000_1_most_basic_plot.png)
