@@ -2,10 +2,9 @@
 """
 FIGURES, AXESES AND ARTISTS
 
-Also an advanced topic, but also one that pops up regularly.
-
-Matplotlib has different hierarchical levels: a Figure contains Axes that 
-contains Artist instances. 
+To further customize plots, we need a better handle on the different elements 
+that make a plot. Matplotlib has different hierarchical levels: a Figure 
+contains Axes that contains Artist instances. 
 
 The Artist instance is what you see. It contains Lines2D, Text and Patches 
 (shapes) subclasses. The Axes instance is a single plot, containing some Artist 

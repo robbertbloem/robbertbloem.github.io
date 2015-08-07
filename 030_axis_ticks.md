@@ -18,8 +18,6 @@ the default values:
 'xtick.major.size'   4
 'xtick.labelsize'    medium
 
-Note: When using Python 3.3 on a Mac, Matplotlib will truncate strings (like 
-labels and titles).
 """
 
 import numpy
@@ -39,9 +37,6 @@ for i in range(2):
 
 ax[0].set_title("Default")
 ax[1].set_title("Customized")
-
-
-
 
 # Change the POSITIONS of x-ticks. It defaults to the major ticks, unless you 
 # use the flag minor = True

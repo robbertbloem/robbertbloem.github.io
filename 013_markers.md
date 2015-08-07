@@ -1,6 +1,7 @@
 ```python
 """
 MARKERS:
+
 Besides plotting lines, you can also plot markers, or both. 
 By default the markers have the color according to the color_cycle. The face and 
 edge color and size can be changed. In the example below the alternative short 
@@ -12,7 +13,6 @@ For a full list of markers, look here:
 http://matplotlib.org/api/artist_api.html#matplotlib.lines.Line2D.set_marker
 
 RCPARAMS:
-
 
 """
 
@@ -41,9 +41,6 @@ plt.plot(x, z,
 plt.title("Markers")
 plt.show()
 plt.savefig("../figures/013_markers")
-
-
-
 ```
 ![](/figures/013_markers.png)
 [Source](/python/013_markers.py)

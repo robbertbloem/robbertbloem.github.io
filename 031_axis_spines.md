@@ -18,7 +18,6 @@ Full list of functions: http://matplotlib.org/api/spines_api.html
 
 """
 
-
 import numpy
 import matplotlib 
 import matplotlib.pyplot as plt
@@ -56,8 +55,8 @@ ax[1].spines['right'].set_position(("data", 11))
 
 
 # you can also iterate over spines
-for loc, spine in ax[1].spines.iteritems():
-    # use ax[1].spines.items() in Python 3
+for loc, spine in ax[1].spines.items():
+    # use ax[1].spines.iteritems() in Python 2
     
     # change linewidth of bottom and top spine
     # note that the spines also get wider. 

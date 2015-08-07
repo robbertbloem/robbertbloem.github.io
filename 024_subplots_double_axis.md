@@ -1,6 +1,6 @@
 ```python
 """
-TWO X OR Y AXES
+TWO X OR Y AXES IN ONE SUBPLOT
 
 You can make a second x or y axis using the twinx() (make a new y-axis) and 
 twiny() (make a new x-axis). 
