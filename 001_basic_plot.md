@@ -1,4 +1,4 @@
-```python
+```numpy
 """
 A LITTLE BIT LESS BARE BONES
 

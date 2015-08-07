@@ -18,7 +18,7 @@ def make_page(filename, figlist):
 
     
     target_file = open("../" + filename[:-2] + "md", "w")
-    target_file.write("```python\n")
+    target_file.write("```numpy\n")
     for line in open(filename):
         target_file.write(line)
     target_file.write("\n```\n")
