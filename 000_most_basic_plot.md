@@ -1,4 +1,4 @@
-```
+```python
 """
 MOST BASIC PLOT
 
