@@ -31,22 +31,5 @@ plt.title("Different line widths")
 plt.show()
 plt.savefig("../figures/012_line_properties_linewidth")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```
 ![](https://github.com/robbertbloem/robbertbloem.github.io/blob/master/figures/012_line_properties_linewidth.png)

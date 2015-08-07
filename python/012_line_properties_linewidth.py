@@ -29,20 +29,3 @@ plt.plot(x, z, lw = 4)
 plt.title("Different line widths")
 plt.show()
 plt.savefig("../figures/012_line_properties_linewidth")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
