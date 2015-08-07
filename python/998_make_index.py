@@ -109,7 +109,7 @@ def make_html():
             
             html_file.write('<span class="cell">')
             
-            html_file.write('<a href="' + temp_files[j][:-3] + '.html">')
+            html_file.write('<a href="https://github.com/robbertbloem/robbertbloem.github.io/blob/master/' + temp_files[j][:-3] + '.md">')
             
             temp_figs = [n for n in fig_list if n[:3] in temp_files[j][:3]]  
             for fig in temp_figs:
