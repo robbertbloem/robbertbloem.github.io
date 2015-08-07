@@ -19,8 +19,6 @@ http://matplotlib.org/examples/api/colorbar_only.html
 
 """
 
-
-
 import numpy
 import matplotlib 
 import matplotlib.pyplot as plt

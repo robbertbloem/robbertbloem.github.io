@@ -30,9 +30,7 @@ matplotlib.patches.FancyArrowPatch(posA, posB) also makes an arrow.
 
 print(arrow.get_arrowstyle())
 
-
 """
-
 
 import numpy
 import matplotlib 
