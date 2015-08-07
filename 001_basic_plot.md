@@ -38,4 +38,4 @@ plt.show()
 plt.savefig("../figures/001_basic_plot")
 
 ```
-![](images/001_basic_plot.png)
+![](/figures/001_basic_plot.png)

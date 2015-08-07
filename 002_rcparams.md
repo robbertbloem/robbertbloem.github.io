@@ -93,4 +93,4 @@ plt.savefig("../figures/002_rcparams")
 # go back to defaults
 matplotlib.rcdefaults()
 ```
-![](images/002_rcparams.png)
+![](/figures/002_rcparams.png)
