@@ -2,8 +2,9 @@
 AXIS RCPARAMS 
 
 rcParams allows you to set the defaults. This is actually quite advanced (I only 
-got in contact with it when I wrote those tutorials), but we will encounter it 
-all over the place. 
+got in contact with it when I wrote those examples), but we will encounter it 
+all over the place, for example to change the linewidths in the whole figure 
+instead of plot by plot.
 
 Use one of the following two methods:
 matplotlib.rcParams['group.key'] = value
