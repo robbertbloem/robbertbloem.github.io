@@ -24,7 +24,7 @@ def make_page(filename, figlist):
     target_file.write("\n```\n")
 
     for fig in figlist:
-        target_file.write("![](" + fig + ")\n")
+        target_file.write("![](" + fig + ".png)\n")
 
     
             

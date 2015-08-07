@@ -49,4 +49,4 @@ plt.savefig("../figures/012_line_properties_linewidth")
 
 
 ```
-![](012_line_properties_linewidth.png)
+![](012_line_properties_linewidth.png.png)
