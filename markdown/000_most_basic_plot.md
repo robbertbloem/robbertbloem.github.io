@@ -1,6 +1,6 @@
-![Alt text](/figures/000_1_most_basic_plot.png "Optional title")
+![](/figures/000_1_most_basic_plot.png "Optional title")
 
-Version 2
+
 ```
 """
 MOST BASIC PLOT
@@ -46,6 +46,12 @@ plt.show()
 # save the figure
 plt.savefig("../figures/000_0_most_basic_plot")
 
+```
+
+![](/figures/000_1_most_basic_plot.png)
+
+```
+
 # let's do that again, with x-axis
 plt.figure()
 plt.plot(x, y)
@@ -54,4 +60,7 @@ plt.show()
 # save the figure
 # no extension or file format means the default is used (png)
 plt.savefig("../figures/000_1_most_basic_plot")
+
 ```
+
+![](/figures/000_1_most_basic_plot.png)
