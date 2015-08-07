@@ -1,4 +1,3 @@
-
 ```
 """
 MOST BASIC PLOT
@@ -15,11 +14,6 @@ In both cases Matplotlib automatically determines the ranges that will be
 plotted.
 
 """
-
-# compatibility with Python 3
-from __future__ import print_function
-from __future__ import division
-from __future__ import absolute_import
 
 # NumPy is always useful
 import numpy
@@ -48,6 +42,7 @@ plt.savefig("../figures/000_0_most_basic_plot")
 # let's do that again, with x-axis
 plt.figure()
 plt.plot(x, y)
+plt.title("Both x and y are given")
 plt.show()
 
 # save the figure
@@ -55,5 +50,5 @@ plt.show()
 plt.savefig("../figures/000_1_most_basic_plot")
 
 ```
-![](/figures/000_0_most_basic_plot.png)
-![](/figures/000_1_most_basic_plot.png)
+![](000_0_most_basic_plot.png)
+![](000_1_most_basic_plot.png)
