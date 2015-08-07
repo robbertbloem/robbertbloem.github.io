@@ -24,7 +24,8 @@ def make_page(filename, figlist):
     target_file.write("\n```\n")
 
     for fig in figlist:
-        target_file.write("![](https://github.com/robbertbloem/robbertbloem.github.io/blob/master/figures/" + fig + ")\n")
+        target_file.write("![](/figures/" + fig + ")\n")
+        # target_file.write("![](https://github.com/robbertbloem/robbertbloem.github.io/blob/master/figures/" + fig + ")\n")
 
     
             

@@ -50,5 +50,5 @@ plt.show()
 plt.savefig("../figures/000_1_most_basic_plot")
 
 ```
-![](https://github.com/robbertbloem/robbertbloem.github.io/blob/master/figures/000_0_most_basic_plot.png)
-![](https://github.com/robbertbloem/robbertbloem.github.io/blob/master/figures/000_1_most_basic_plot.png)
+![](/figures/000_0_most_basic_plot.png)
+![](/figures/000_1_most_basic_plot.png)
