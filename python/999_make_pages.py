@@ -35,6 +35,7 @@ def make_page(filename, figlist):
 if __name__ == "__main__": 
 
     filelist = os.listdir(os.getcwd())
+    
     figurelist = os.listdir("../figures/")
 
     for f in filelist:
