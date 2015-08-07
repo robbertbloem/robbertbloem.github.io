@@ -29,7 +29,21 @@ def make_page(filename, figlist):
     target_file.write("[Source](/python/" + filename[:-2] + "py)")
 
 
+def make_index(filelist):
     
+    target_file = open("../index.html", "w")
+    
+    for file in filelist:
+        
+        target_file.write('<p><a href="' + file + '">' + file[:3] + '</a></p>')
+#         target_file.write("\n")
+    
+    target_file.write("<html><body>")
+    
+    
+    
+    
+    target_file.write("</body></html>")
             
 
 if __name__ == "__main__": 
@@ -48,3 +62,5 @@ if __name__ == "__main__":
                     figlist.append(fig)
         
             make_page(f, figlist)
+
+    make_index(filelist)

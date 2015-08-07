@@ -1,0 +1,101 @@
+body {
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    width: 750px;
+    position: relative;
+    margin: 0px auto; 
+    background-color: #daedff;
+}
+
+
+pre {
+    font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+    font-size: 15px;
+    padding: 0.5em;
+    border: 1px solid black;
+    background-color: white;
+    line-height: 1;
+    border-radius: 10px;
+}
+
+img {
+    border: 1px solid black;
+}
+
+#nav {
+    background-color: #daedff;
+    text-align: center;
+    padding: 5px;
+}
+
+#navbuttons {
+    margin-top: 10px;
+}
+
+#navbuttons a {
+    background-color: #daedff;
+    color: black;
+    padding: 0px 40px 5px 40px; /* top right bottom left */
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: none;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+}
+#navbuttons a:visited {
+    background-color: #daedff;
+    color: black;
+}
+#navbuttons a:hover {
+    background-color: black;
+    color: #daedff;   
+}
+
+#copyright {
+    text-align: center;
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#copyright a, a:visited {
+    background-color: #daedff;
+    color: black;
+}
+
+#copyright a:hover {
+    color: #daedff;
+    background-color: black;
+}
+
+
+#table {
+    display: table;
+    border-spacing: 10px;
+}
+.row {
+    display: table-row;
+}
+.cell {
+    display: table-cell;
+    width: 220px;
+    text-align: center;
+}
+
+.cell a, a:visited {
+    color: black;
+    background-color: #daedff;
+}
+
+.cell a:hover {
+    color: #daedff;
+    background-color: black;
+}
+
+
+
+
+
+
+
