@@ -1,11 +1,21 @@
 """
 CONTOUR PLOTS DASH SPACING AND LINE WIDTH
 
-Each contour level in a contour plot is a LineCollection: a collection of lines. Editing properties of one such collection is different than changing properties of Line2D instance in linear plots. There are less options and we'll need to find the contour we want to change.
+Each contour level in a contour plot is a LineCollection: a collection of lines. 
+Editing properties of one such collection is different than changing properties 
+of Line2D instance in linear plots. There are less options and we'll need to 
+find the contour we want to change.
 
-The Axes.get_children() function lists all the elements of the plot: Spines, Axis, some other stuff and a few objects labeled as '<matplotlib.collections.LineCollection object at 0x48ccb70>'. Each of these is one contour level. It seems they are ordered in the way of 'levels' (the default is from minimum to maximum). 
+The Axes.get_children() function lists all the elements of the plot: Spines, 
+Axis, some other stuff and a few objects labeled as 
+'<matplotlib.collections.LineCollection object at 0x48ccb70>'. Each of these is 
+one contour level. It seems they are ordered in the way of 'levels' (the default 
+is from minimum to maximum). 
 
-For each of these children we can look at a limited number of properties: line width and line style. Using set_linestyle() and set_linewidth() we can change these properties. In order to change the spacing of the dashes use set_dashes([(offset, (on, off))]). 
+For each of these children we can look at a limited number of properties: line 
+width and line style. Using set_linestyle() and set_linewidth() we can change 
+these properties. In order to change the spacing of the dashes use 
+set_dashes([(offset, (on, off))]). 
 
 
 MORE INFO:
@@ -54,22 +64,6 @@ for axc in ax[1].get_children():
 
 ax[0].set_title("Default")
 ax[1].set_title("Changed")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 plt.show()

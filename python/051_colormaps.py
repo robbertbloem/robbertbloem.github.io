@@ -1,23 +1,21 @@
 """
 COLORMAPS
 
-A colormap is a dictionary for the RGB values. For each color, a list of tupples gives the different segments. Each segment is a point along the z-axis, ranging from 0 to 1. The colors for the levels is interpolated from these segments.
+A colormap is a dictionary for the RGB values. For each color, a list of tupples 
+gives the different segments. Each segment is a point along the z-axis, ranging 
+from 0 to 1. The colors for the levels is interpolated from these segments.
 
 segment z-axis  end      start
 i       z[i]    v0[i]    v1[i]
 i+1     z[i+1]  v0[i+1]  v1[i+1]   
 i+2     z[i+2]  v0[i+2]  v1[i+2]   
 
-Levels between z[i] and z[i+1] will have colors between v1[i] and v0[i+1] etc. This makes it possible to 'jump' colors. v0[0] and v1[-1] are not used. 
+Levels between z[i] and z[i+1] will have colors between v1[i] and v0[i+1] etc. 
+This makes it possible to 'jump' colors. v0[0] and v1[-1] are not used. 
 
 Note:
 I use contour plots to demonstrate the colormaps. 
 http://matplotlib.org/examples/api/colorbar_only.html
-
-
-
-
-
 
 """
 
@@ -99,17 +97,5 @@ ax[1].set_title("Red jump")
 ax[2].set_title("RWB")
 ax[3].set_title("RWB")
 
-
 plt.show()
 plt.savefig("../figures/051_colormaps")
-
-
-
-
-
-
-
-
-
-
-

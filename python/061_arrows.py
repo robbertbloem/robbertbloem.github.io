@@ -8,7 +8,9 @@ AXES.ARROW
 Axes.arrow(x,y,dx,dy) makes an arrow.
 
 CONNECTION STYLES:
-Angle: connect points A and B with a path. 'angleA' sets the angle from A and 'angleB' sets the angle towards B. 'rad' sets the radius of the curve (see note).
+Angle: connect points A and B with a path. 'angleA' sets the angle from A and 
+'angleB' sets the angle towards B. 'rad' sets the radius of the curve (see 
+note).
 Angle3: same as 'Angle', but sets 'rad' for you.
 
 Arc: make a Bezier curve. See Wikipedia for an explanation:
@@ -16,7 +18,8 @@ https://en.wikipedia.org/wiki/Bezier_curve
 You can set the arm and angle for A and B and the radius (see note).
 Arc3: as 'Arc', but you only have to set the radius. 
 
-Note about the radius: in 'Angle' the radius is in points I think. With 'Arc', the radius is the distance between A and B. 
+Note about the radius: in 'Angle' the radius is in points I think. With 'Arc', 
+the radius is the distance between A and B. 
 
 Bar: 
 
