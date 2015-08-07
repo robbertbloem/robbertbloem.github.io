@@ -37,6 +37,7 @@ plt.figure()
 
 # plot the data
 plt.plot(y)
+plt.title("Only y is given")
 
 # show the plot
 plt.show()

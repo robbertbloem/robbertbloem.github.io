@@ -35,6 +35,7 @@ plt.figure()
 
 # plot the data
 plt.plot(y)
+plt.title("Only y is given")
 
 # show the plot
 plt.show()
@@ -45,6 +46,7 @@ plt.savefig("../figures/000_0_most_basic_plot")
 # let's do that again, with x-axis
 plt.figure()
 plt.plot(x, y)
+plt.title("Both x and y are given")
 plt.show()
 
 # save the figure
