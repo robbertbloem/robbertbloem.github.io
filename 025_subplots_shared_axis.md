@@ -2,7 +2,8 @@
 """
 SHARE AN AXIS BETWEEN TWO SUBPLOTS
 
-If you want to share an axes between two subplots, simply use 'sharex' or 'sharey' when creating the subplot. 
+If you want to share an axes between two subplots, simply use 'sharex' or 
+'sharey' when creating the subplot. 
 
 """
 
