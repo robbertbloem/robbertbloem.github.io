@@ -1,3 +1,6 @@
+![Alt text](/figures/000_1_most_basic_plot.png "Optional title")
+
+
 ```
 """
 MOST BASIC PLOT
