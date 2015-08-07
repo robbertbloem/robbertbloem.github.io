@@ -3,8 +3,6 @@ AXIS RCPARAMS
 
 rcParams can be used to change defaults. Very similar to 002_rcparams.
 
-Note: When using Python 3.3 on a Mac, Matplotlib will truncate strings (like 
-labels and titles).
 """
 
 import numpy

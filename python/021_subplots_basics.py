@@ -65,6 +65,3 @@ ax[1].set_ylim(-1.1,0.9)
 
 plt.show()
 plt.savefig("../figures/021_subplots_basics")
-
-
-

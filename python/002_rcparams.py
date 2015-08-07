@@ -37,10 +37,6 @@ http://matplotlib.org/users/customizing.html#a-sample-matplotlibrc-file
 but I found that some keys are not used anymore. Below is a simple function that 
 prints keys and values for a given group.
 
-
-NOTE:
-When using Python 3.3 on a Mac, Matplotlib will truncate strings (like labels 
-and titles).
 """
 
 import numpy

@@ -10,7 +10,7 @@ If you use plt.plot(data) Matplotlib will make an x-axis from 0 to the number of
 elements in data. Give plt.plot(x_axis, data) to define the x-axis yourself.
 
 In both cases Matplotlib automatically determines the ranges that will be 
-plotted.
+plotted. See 001 to set the limits for the ranges.
 
 """
 

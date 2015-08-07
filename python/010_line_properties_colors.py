@@ -50,4 +50,3 @@ plt.plot(x, z, color = "y")
 plt.title("manual coloring")
 plt.show()
 plt.savefig("../figures/010_1_line_properties_colors_manual")
-
