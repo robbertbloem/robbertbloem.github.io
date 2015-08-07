@@ -42,4 +42,4 @@ plt.savefig("../figures/011_line_properties_linestyle")
 
 
 ```
-![](/figures/011_line_properties_linestyle.png)
+![](https://github.com/robbertbloem/robbertbloem.github.io/blob/master/figures/011_line_properties_linestyle.png)

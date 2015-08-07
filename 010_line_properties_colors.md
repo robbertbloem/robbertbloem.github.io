@@ -54,5 +54,5 @@ plt.savefig("../figures/010_1_line_properties_colors_manual")
 
 
 ```
-![](/figures/010_0_line_properties_colors_default.png)
-![](/figures/010_1_line_properties_colors_manual.png)
+![](https://github.com/robbertbloem/robbertbloem.github.io/blob/master/figures/010_0_line_properties_colors_default.png)
+![](https://github.com/robbertbloem/robbertbloem.github.io/blob/master/figures/010_1_line_properties_colors_manual.png)

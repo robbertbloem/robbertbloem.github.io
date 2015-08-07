@@ -38,4 +38,4 @@ plt.show()
 plt.savefig("../figures/001_basic_plot")
 
 ```
-![](/figures/001_basic_plot.png)
+![](https://github.com/robbertbloem/robbertbloem.github.io/blob/master/figures/001_basic_plot.png)
