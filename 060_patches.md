@@ -212,15 +212,5 @@ ax.set_ylim(0,12)
 
 plt.show()
 
-
-
-
-
-
-
-
-
-
-
 ```
 [Source](/python/060_patches.py)
