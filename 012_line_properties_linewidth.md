@@ -1,4 +1,4 @@
-```numpy
+```python
 """
 LINE WIDTH
 

@@ -1,4 +1,4 @@
-```numpy
+```python
 """
 MARKERS:
 Besides plotting lines, you can also plot markers, or both. 

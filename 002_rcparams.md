@@ -1,4 +1,4 @@
-```numpy
+```python
 """
 AXIS RCPARAMS 
 
