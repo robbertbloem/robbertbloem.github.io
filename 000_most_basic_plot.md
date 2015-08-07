@@ -50,5 +50,5 @@ plt.show()
 plt.savefig("../figures/000_1_most_basic_plot")
 
 ```
-![](000_0_most_basic_plot.png.png)
-![](000_1_most_basic_plot.png.png)
+![](images/000_0_most_basic_plot.png)
+![](images/000_1_most_basic_plot.png)

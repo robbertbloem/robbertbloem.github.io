@@ -45,4 +45,4 @@ plt.savefig("../figures/013_markers")
 
 
 ```
-![](013_markers.png.png)
+![](images/013_markers.png)
