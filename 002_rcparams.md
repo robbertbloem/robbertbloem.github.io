@@ -94,3 +94,4 @@ plt.savefig("../figures/002_rcparams")
 matplotlib.rcdefaults()
 ```
 ![](/figures/002_rcparams.png)
+[Source](/python/002_rcparams.py)

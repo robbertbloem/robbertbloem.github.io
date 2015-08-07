@@ -25,6 +25,8 @@ def make_page(filename, figlist):
 
     for fig in figlist:
         target_file.write("![](/figures/" + fig + ")\n")
+        
+    target_file.write("[Source](/python/" + filename[:-2] + "py)")
 
 
     

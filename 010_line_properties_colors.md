@@ -56,3 +56,4 @@ plt.savefig("../figures/010_1_line_properties_colors_manual")
 ```
 ![](/figures/010_0_line_properties_colors_default.png)
 ![](/figures/010_1_line_properties_colors_manual.png)
+[Source](/python/010_line_properties_colors.py)

@@ -33,3 +33,4 @@ plt.savefig("../figures/012_line_properties_linewidth")
 
 ```
 ![](/figures/012_line_properties_linewidth.png)
+[Source](/python/012_line_properties_linewidth.py)

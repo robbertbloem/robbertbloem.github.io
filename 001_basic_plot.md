@@ -39,3 +39,4 @@ plt.savefig("../figures/001_basic_plot")
 
 ```
 ![](/figures/001_basic_plot.png)
+[Source](/python/001_basic_plot.py)
